@@ -14,4 +14,4 @@ except ValueError:
 print("calculando su indice de masa...")
 imc=str((peso/(altura**2)))
 str(imc)
-print(f"{nombre} su indice de masa es de: {imc}")
+print(f"{nombre} su indice de masa es de: {imc} basado en su altura de: {altura} y su peso de: {peso}")
